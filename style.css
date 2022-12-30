@@ -1,0 +1,361 @@
+body {
+    background-color: bisque;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem auto;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+  }
+      
+  html::-webkit-scrollbar{
+    width: 1rem;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  html::-webkit-scrollbar-thumb{
+    background: #e6cf22;
+    border-radius: 5rem;
+  }
+  
+  body{
+    background: bisque;
+    overflow-x: hidden;
+  }
+  
+  section{
+    padding: 3rem.9%;
+  }
+  
+  .heading{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .heading span{
+    color: #e6cf22;
+    font-size: 2rem;
+  }
+  
+  .heading h1{
+    font-size: 4rem;
+    color: #fff;
+  }
+  
+  .btn{
+    margin-top: 0rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: #e6cf22;
+    border: 0.2rem solid #e6cf22;
+    border-radius: 5rem;
+    cursor: pointer;
+    background: none;
+    }
+  
+  .btn:hover{
+    background: #e6cf22;
+    color: white;
+  }
+  
+  .header{
+    position: fixed;
+    top:0; left:0; right: 0;
+    z-index: 1000;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 9%;
+  }
+  
+  .header .navbar a{
+    font-size: 1.7rem;
+    color: #aaa;
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  
+  .header .navbar a:hover{
+    color: #e6cf22;
+  }
+  
+  .logo{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bolder;
+  }
+  
+  .logo i{
+    color: rgba(105, 224, 235, 0.87);
+    padding-right: 5.rem
+  }
+  
+  #menu-btn{
+    font-size: 2.5rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .home{
+    margin: 0 auto;
+    margin-top: 9rem;
+    width: 90%;
+    border-radius: 1rem;
+    background: linear-gradient(white, white), url(img/home.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+  }
+  
+  .home .content{
+    text-align: center;
+  }
+
+  .home .content span{
+    font-weight: bolder;
+    color: #fff;
+    font-size: 4vw;
+    display: block;
+  }
+  
+  .home .content h3{
+    font-size: 5vw;
+    color: #fff;
+  }
+  
+  .home .content p{
+    max-width: 60rem;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    color: #aaa;
+    line-height: 2;
+  }
+  
+  .book-form{
+    width: 80%;
+    margin: 1rem auto;
+    margin-top: -5rem;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem white;
+    padding: 3rem 2rem;
+  }
+  
+  .book-form form{
+    display: flex;
+    align-items: flex-end;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+    
+  .book-form form .inputBox{
+    flex: 1 1 25rem;
+  }
+    
+  .book-form form .inputBox span{
+    font-size: 1.4rem;
+    color: #aaa;
+  }
+    
+  .book-form form .inputBox input{
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    border-radius: 5rem;
+    border: 0.2rem solid #e6cf22;
+    font-size: 1.6rem;
+    color: #aaa;
+    text-transform: none;
+    background: none;
+    margin-top: 1rem;
+  }
+    
+  .book-form form .btn{
+    flex: 1 1 15rem;
+  }
+  
+  .about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 5rem;
+  }
+  
+  .about .video-container{
+    flex: 1 1 42rem;
+  }
+  
+  .about .video-container video{
+    border-radius: 1rem;
+    width: 95%;
+    margin: 0px 100px 0px 30px ;
+  }
+  
+  .about .video-container .controls{
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .about .video-container span{
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    margin: .7rem;
+  }
+  
+  .about .video-container span:hover{
+    background: #e6cf22;
+  }
+  
+  .about .content{
+    flex: 1 1 42rem;
+    margin:0rem 5rem 5rem 0rem;
+    padding: 10px 30px;
+  }
+  
+  .about .content span{
+    color:#e6cf22;
+    font-size: 2rem;
+  }
+  
+  .about .content h3{
+    color: #fff;
+    font-size: 4rem;
+    margin-top: .5rem;
+  }
+  
+  .about .content p{
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: #aaa;
+    line-height: 2;
+  }
+  
+  .destination .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+    margin: 50px;
+  }
+  
+  .destination .box-container .box{
+    border-radius: 1rem;
+    overflow: hidden;
+    background: white;
+  }
+  
+  .destination .box-container .box:hover img{
+    transform: scale(1.1);
+  }
+  
+  .destination .box-container .box .image{
+    height: 20rem;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .destination .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .destination .box-container .box .content{
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .destination .box-container .box .content h3{
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .destination .box-container .box .content p{
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: #aaa;
+    line-height: 2;
+  }
+  
+  .destination .box-container .box .content a{
+    font-size: 1.7rem;
+    color: #e6cf22;
+  }
+  
+  .destination .box-container .box .content a:hover i{
+    padding-left: 1rem;
+  }
+
+  .destination .box-container .box .content a i{
+    padding-right: .5rem;
+  }
+  
+.card {
+    width: 400px;
+    height: 200px;
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:inherit;
+}
+
+.card-button{
+    background-color:#e6cf22;
+    color:bisque
+}
+
+.card-button:selected {
+    background-color:#3da227;
+}
+.card-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+}
+
+.card-input {
+    width: 95%;
+    height: 50px;
+    margin-top: 30px;
+    padding-left: 15px;
+    color: coral;
+    font-size: 14px;
+}
+
+footer {
+    background-color: beige;
+    padding: 10px;
+    margin: 0px 10px 50px;
+  }
+  
+  .ftext {
+    color: blue;
+  }
+  
+  .ftext {
+    color: red;
+  }
